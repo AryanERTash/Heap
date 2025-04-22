@@ -38,6 +38,7 @@ class Solution {
 		for (int i = nonLeaf; i >= 0; i--) {
 
 			heapifyDown(arr, i, n-1);
+			
 
 		}
 
